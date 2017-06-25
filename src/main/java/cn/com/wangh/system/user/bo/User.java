@@ -2,8 +2,11 @@ package cn.com.wangh.system.user.bo;
 
 import java.sql.Timestamp;
 
-public class User {
-/*
+import cn.com.wangh.core.bo.BaseEntity;
+import cn.com.wangh.core.enums.EntityStatus;
+
+public class User extends BaseEntity {
+
 	private static final long serialVersionUID = -2846977170636930082L;
 
 	private String name;
@@ -61,5 +64,5 @@ public class User {
 
 	public void setLoginLastTime(Timestamp loginLastTime) {
 		this.loginLastTime = loginLastTime;
-	}*/
+	}
 }
