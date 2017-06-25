@@ -2,6 +2,7 @@ package cn.com.wangh.system.user.web;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.tomcat.jni.User;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +12,22 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
 	@RequestMapping("/{id}/get")
-	public String get(@PathVariable String id, HttpServletRequest request) {
+	public User get(@PathVariable String id, HttpServletRequest request) {
+		return new User();
+	}
+	
+	@RequestMapping("/{id}/get")
+	public String post(@PathVariable String id, HttpServletRequest request) {
+		return "adsfasdf";
+	}
+	
+	@RequestMapping("/{id}/get")
+	public String put(@PathVariable String id, HttpServletRequest request) {
+		return "adsfasdf";
+	}
+	
+	@RequestMapping("/{id}/")
+	public String delete(@PathVariable String id, HttpServletRequest request) {
 		return "adsfasdf";
 	}
 }
