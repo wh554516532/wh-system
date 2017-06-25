@@ -1,1 +1,7 @@
+cn\com\wangh\util\App.class
+cn\com\wangh\core\enums\EntityStatus.class
 cn\com\wangh\system\user\bo\User.class
+cn\com\wangh\core\bo\BaseEntity.class
+cn\com\wangh\core\App.class
+cn\com\wangh\system\user\web\UserController.class
+cn\com\wangh\system\Start.class
