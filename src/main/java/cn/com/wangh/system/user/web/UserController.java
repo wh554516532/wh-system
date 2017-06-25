@@ -15,19 +15,4 @@ public class UserController {
 	public User get(@PathVariable String id, HttpServletRequest request) {
 		return new User();
 	}
-	
-	@RequestMapping("/{id}/get")
-	public String post(@PathVariable String id, HttpServletRequest request) {
-		return "adsfasdf";
-	}
-	
-	@RequestMapping("/{id}/get")
-	public String put(@PathVariable String id, HttpServletRequest request) {
-		return "adsfasdf";
-	}
-	
-	@RequestMapping("/{id}/")
-	public String delete(@PathVariable String id, HttpServletRequest request) {
-		return "adsfasdf";
-	}
 }
